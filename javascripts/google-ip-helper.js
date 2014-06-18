@@ -1,8 +1,8 @@
 function ping(jq){
   var img = new Image();
   var ip = jq.text(); 
-  img.src = "http://"+ip+"/textinputassistant/tia.png"; 
-  
+  //img.src = "http://"+ip+"/textinputassistant/tia.png"; 
+  img.src='http://'+ip+"/images/srpr/logo11w.png";
   img.onload = function(){  
     jq.addClass('green');
   }
